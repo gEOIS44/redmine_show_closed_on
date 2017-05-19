@@ -1,0 +1,33 @@
+= redmine_show closed on
+
+Excuse me, but this site supports only Japanese.
+
+== 概要
+
+「終了日」を表示します。
+
+== インストール
+
+Redmineのインストールディレクトリで、以下のコマンドを実行したのち、Redmineを再起動してください。
+
+    $ cd plugins
+    $ git clone https://github.com/g301244/redmine_show_closed_on.git
+    $ touch ../tmp/restart.txt
+
+== Redmineの対象バージョン
+
+本プラグインは、Redmine 3.2.6, 3.3.3 で動作を確認しております。
+
+== 履歴
+
+* 0.1.0　初版
+
+== ライセンス
+
+本ソフトウェアは、MITライセンスのもとで配布いたします。
+
+Copyright (c) 2017 g301244
+
+Released under the MIT license
+
+http://opensource.org/licenses/mit-license.php
